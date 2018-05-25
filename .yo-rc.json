@@ -1,0 +1,9 @@
+{
+  "generator-react-webpack": {
+    "appName": "memeit-lol",
+    "style": "less",
+    "cssmodules": true,
+    "postcss": true,
+    "generatedWithVersion": 4
+  }
+}
