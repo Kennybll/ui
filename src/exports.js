@@ -1,3 +1,3 @@
 module.exports = {
-  api: "http://localhost:3030/"
+  api: "https://api.memeit.lol/"
 }
