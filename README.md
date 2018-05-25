@@ -52,7 +52,7 @@ Create a post on www.utopian.io containing detailed information on your New Deve
    * Add Moderators System <sup>(In Progress)</sup>
    * Add VoteBot <sup>(Finished)</sup> 
    * New Stickers <sup>(Finished)</sup>
-   * Fork Busy UI <sup>(in progress)</sup>
+   * New UI <sup>(in progress)</sup>
    * Launch Steem Blockchain Database Sync <sup>(in progress)</sup> 
    * Memeit Caption Contests
    * Add EXP System
