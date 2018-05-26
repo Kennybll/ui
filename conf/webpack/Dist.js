@@ -21,8 +21,7 @@ class WebpackDistConfig extends WebpackBaseConfig {
         new webpack.DefinePlugin({
           'process.env.NODE_ENV': '"production"'
         }),
-        new webpack.optimize.AggressiveMergingPlugin(),
-        new webpack.NoErrorsPlugin()
+        new webpack.optimize.AggressiveMergingPlugin()
       ]
     };
 

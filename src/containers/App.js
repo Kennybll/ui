@@ -1,7 +1,7 @@
 import React, {
-  Component,
-  PropTypes
+  Component
 } from 'react';
+import PropTypes from 'prop-types';
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 import {
@@ -89,7 +89,7 @@ class App extends Component {
     return (
       <Layout>
         <Header>
-          <Avatar src={'/images/icon.png'} onClick={() => {this.props.history.push('/')}} />
+          <Avatar src={'/assets/static/icon.png'} onClick={() => {this.props.history.push('/')}} />
           <Dropdown overlay={menu} trigger={['click']} placement='bottomRight'>
             <a
               style={{

@@ -17,7 +17,7 @@ const store = configureStore();
 ReactDOM.render(
   <AppContainer>
     <Provider store={store.store}>
-      <ConnectedRouter history={store.history}>
+      <ConnectedRouter isSSR history={store.history}>
         <CookiesProvider>
           <div>
             <Route path="/" component={App}/>

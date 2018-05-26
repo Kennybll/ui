@@ -19,8 +19,7 @@ class WebpackDevConfig extends WebpackBaseConfig {
         './client.js'
       ],
       plugins: [
-        new webpack.HotModuleReplacementPlugin(),
-        new webpack.NoErrorsPlugin()
+        new webpack.HotModuleReplacementPlugin()
       ]
     };
   }

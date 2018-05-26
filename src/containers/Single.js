@@ -1,7 +1,7 @@
 import React, {
-  Component,
-  PropTypes
+  Component
 } from 'react';
+import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { withCookies } from 'react-cookie';
 import axios from 'axios';

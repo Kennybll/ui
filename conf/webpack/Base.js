@@ -79,7 +79,9 @@ class WebpackBaseConfig {
               { loader: 'style-loader' },
               { loader: 'css-loader' },
               { loader: 'postcss-loader' },
-              { loader: 'less-loader' }
+              { loader: 'less-loader', options: {
+                javascriptEnabled: true
+              } }
             ]
           },
           {
@@ -90,10 +92,6 @@ class WebpackBaseConfig {
               { loader: 'postcss-loader' },
               { loader: 'stylus-loader' }
             ]
-          },
-          {
-            test: /\.json$/,
-            loader: 'json-loader'
           },
           {
             test: /\.(js|jsx)$/,
@@ -132,7 +130,9 @@ class WebpackBaseConfig {
                 query: cssModulesQuery
               },
               { loader: 'postcss-loader' },
-              { loader: 'less-loader' }
+              { loader: 'less-loader', options: {
+                javascriptEnabled: true
+              } }
             ]
           },
           {
